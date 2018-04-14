@@ -100,8 +100,7 @@ textarea {
 
 
 body {
-  background: #d0d0d0;
-  background: url("../img/background.png");
+  background: #EFEFEF;
   margin: 0;
 }
 main {
@@ -117,12 +116,19 @@ main {
   margin-bottom: 15px;
 }
 header {
-  background: #9a9a9a;
-  background: url("../img/header.png");
+  background: #CAEBF2;
   background-repeat: repeat-x;
   margin-bottom: 30px;
   width: 100%;
   height: auto;
+}
+#headerText {
+  font-size: 90px;
+  color: #A9A9A9;
+  padding-top: 10px;
+  display: block;
+  margin: 0 auto;
+  font-family: monospace;
 }
 .headerContent {
   width: 1024px;
@@ -131,7 +137,7 @@ header {
 }
 .navBar {
   height: 42px;
-  background: #7ee982;
+  background: #CAEBF2;
   margin-bottom: 10px;
 }
 .navBar ul {
@@ -143,20 +149,16 @@ header {
   list-style: none;
 }
 .navBar ul li a {
-  color: black;
+  color: #A9A9A9;
   text-decoration: none;
+  font-weight: bold;
   float: left;
   display: block;
   padding: 10px 20px;
 }
 .navBar ul li a:hover {
   color: white;
-  background-color: #6cb96f;
-}
-.headerLine {
-  width: 100%;
-  height: 0;
-  border-bottom: 1px solid black;
+  background-color: #A9A9A9;
 }
 .mainContent {
   width: 1024px;
@@ -165,107 +167,19 @@ header {
   margin: 0 auto;
 }
 
-/* Home page */
-
-.welcomeText {
-  text-align: center;
-  font-family: "Verdana";
-  color: black;
-}
-#buttonsBox {
-  float: left;
-  background: url("../img/triangle.png");
-  width: 600px;
-  height: 600px;
-  opacity: 0.7;
-}
-.circularButton {
-  text-decoration: none;
-  float: left;
-  width: 240px;
-  height: 240px;
-  display: block;
-  border-radius: 200px;
-  border: 2px solid #7ee982;
-  transition: background 0.4s linear;
-}
-.circularButton:hover {
-  background-color: #7ee982;
-  opacity: 0.7;
-}
-#aboutButton {
-  margin-left: 23px;
-  margin-top: 20px;
-}
-#portfolioButton {
-  margin-left: 78px;
-  margin-top: 95px;
-}
-#blogButton {
-  margin-top: 7px;
-  margin-left: 120px;
-}
-.buttonsText {
-  font-family: "Verdana";
-  font-size: 18pt;
-  font-weight: bold;
-  color: black;
-  text-align: center;
-  margin-top: 100px;
-}
-
-.carouselWrapper {
-  float: left;
-  width: auto;
-  height: auto;
-  position: relative;
-}
-.buttonsWrapper {
-  float: left;
-  width: 55px;
-  height: 644px;
-}
-.previousButton, .nextButton {
-  clear: left;
-  width: 50px;
-  height: 50px;
-  margin-top: 175px;
-  margin-right: 5px;
-  border-radius: 30px;
-}
-.previousButton:hover, .nextButton:hover {
-  background-color: #7ee982;
-  opacity: 0.8;
-}
-
-.carousel {
-  float: left;
-}
-.carousel img {
-  border: 3px solid grey;
-}
-.shownImage {
-	display: inline-block;
-}
-.hiddenImage {
-	display: none;
-}
-
-
 
 /* Footer */
 
 footer {
   width: 100%;
   height: 60px;
-  background: #9a9a9a;
-  background: url("../img/header.png");
+  background: #CAEBF2;
 }
 .footerLine {
   clear: both;
   width: 100%;
   height: 0;
-  border-bottom: 3px solid #7ee982;
+  border-bottom: 3px solid #A9A9A9;
   margin-bottom: 0;
   margin-top: 0;
 }
@@ -280,7 +194,7 @@ footer {
 .footerContent p {
   margin-top: 6px;
   margin-bottom: 0;
-  color: white;
+  color: black;
   width: 300px;
   float: left;
 }
@@ -289,7 +203,7 @@ footer {
 }
 
 
-/* About Page */
+/* Home Page */
 
 .leftSide {
   float: left;
@@ -301,9 +215,8 @@ footer {
 
 .aboutArticle {
   float:left;
-  background-color: #7ee982;
-  background-image: linear-gradient(#7ee982, #68c66b);
-  opacity: 0.75;
+  background-color: #CAEBF2;
+  opacity: 0.85;
   width: 100%;
   height: auto;
   margin-right: 1%;
@@ -338,8 +251,8 @@ p {
 
 .aboutGames {
   float:left;
-  background-color: #aaaaaa;
-  background-image: linear-gradient(#aaaaaa, #878787);
+  background-color: #FF3B3F;
+  border-radius: 15px 15px 0 0;
   opacity: 0.9;
   width: auto;
   height: auto;
@@ -351,7 +264,7 @@ p {
 h5 {
   margin-top: 0px;
   margin-left: 30px;
-  color: #808080;
+  color: white;
   font-style: italic;
 }
 .gameImageWrapper {
@@ -364,8 +277,8 @@ h5 {
   margin-bottom: 15px;
   overflow: hidden;
   position: relative;
-  background: #7ee982;
-  border: 2px solid #7ee982;
+  background: #CAEBF2;
+  border: 2px solid #CAEBF2;
 }
 .gameImage {
   width: 220px;
@@ -446,12 +359,11 @@ h3 {
 
 .blogPosts {
   float:left;
-  background-color: white;
+  background-color: #CAEBF2;
   width: 1024px;
   height: auto;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
   border-radius: 15px 15px 0 0;
-  border: 2px solid #aaaaaa;
 }
 .blogImage {
   margin-left: 37px;
