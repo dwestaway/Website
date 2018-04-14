@@ -314,6 +314,22 @@ footer {
   padding-left: 15px;
   padding-top: 10px;
 }
+
+a:link, a:visited{
+    text-decoration: none;
+    color: black;
+    text-align: left;
+    display: block;
+    padding-left: 15px;
+    margin-bottom: 10px;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    text-decoration: underline;
+}
 p {
   padding: 0px 15px 15px 15px;
   font-size: 18px;
