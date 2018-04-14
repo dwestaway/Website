@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title>DWestaway - Home</title>
+        <title>DWestaway - About</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -18,64 +18,74 @@
         <![endif]-->
 
         <!-- Add your site or application content here -->
-
         <header>
           <div class="headerContent">
-            <img class="topImage" src="img/home.png" alt=""/>
+            <img class="topImage" src="img/home.png" alt="" />
             <nav class="navBar">
               <ul>
-                <li><a href="index.html" title="Home">Home</a></li>
-                <li><a href="about.html" title="About">About</a></li>
+                <li><a href="about.html" title="Home">Home</a></li>
                 <li><a href="portfolio.html" title="Portfolio">Portfolio</a></li>
                 <li><a href="blog.html" title="Blog">Blog</a></li>
               </ul>
 
-            </nav>
+              </nav>
           </div>
           <div class="headerLine"></div>
         </header>
 
-
         <main>
           <div class="mainContent">
-            <h1 class="welcomeText">Welcome to my website!</h1>
 
-            <div id="buttonsBox">
-              <a class="circularButton" id="aboutButton" href="about.html">
-                <h2 class="buttonsText">Learn About Me</h2>
-              </a>
-              <a class="circularButton" id="portfolioButton" href="portfolio.html">
-                <h2 class="buttonsText">My Portfolio</h2>
-              </a>
-              <a class="circularButton" id="blogButton" href="blog.html">
-                <h2 class="buttonsText">My Blog</h2>
-              </a>
-            </div>
+            <div class="leftSide">
+            <article class="aboutArticle">
+              <h2 class="articleHead">About Me</h2>
+                <p>
+                  My name is Dan Westaway and I am currently living in Plymouth studying Computing and Games Development in my third year at Plymouth University. This is my developer website, showcasing my current and previous projects, updates/blog posts of some of my previous posts are found on the Blog page. Links to any projects I release will also be found on this website.
+                </p>
+                <!-- <p class="articleText">
+                  Below is an image of my cat:
+                </p> -->
+            </article>
 
-
-            <div class="carouselWrapper">
-              <div class="buttonsWrapper">
-
-                <a class="next" href="#" title="Next Image">
-                <img class="nextButton" src="img/rightarrow.png" alt="">
-                </a>
-                <a class="previous" href="#" title="Previous Image">
-                <img class="previousButton" src="img/leftarrow.png" alt="">
-                </a>
-              </div>
-
-              <div class="carousel">
-                <img class="shownImage" src="img/image1.jpg" alt="Image1">
-                <img class="hiddenImage" src="img/image2.jpg" alt="Image2">
-                <img class="hiddenImage" src="img/image3.jpg" alt="Image3">
-                <img class="hiddenImage" src="img/image4.jpg" alt="Image4">
-              </div>
+            <!-- <img id="cat" src="img/cat.jpg" alt="Cat picture"> -->
 
             </div>
+
+          <div class="rightSide">
+
+            <div class="aboutGames">
+              <h3 class="aboutGamesTitle">Recent Projects</h3>
+              <h5>(Mouse over)</h5>
+
+              <div class="gameImageWrapper">
+                <img class="gameImage" src="img/flip.png" alt="Image" />
+                <div class="content">
+                  <h2>Flip</h2>
+                  <a href="https://dwestaway.itch.io/flip">Game Release</a>
+                  <a href="http://dwestaway.bitbucket.org/blog.html">Blog</a>
+                </div>
+              </div>
+              <div class="gameImageWrapper">
+                <img class="gameImage" src="img/awoken.png" alt="Image" />
+                <div class="content">
+                  <h2>Awoken</h2>
+                  <a href="http://dwestaway.bitbucket.org/blog.html">Link to blog</a>
+                </div>
+              </div>
+              <div class="gameImageWrapper">
+                <img class="gameImage" src="img/zombie.png" alt="Image" />
+                <div class="content">
+                  <h3>Zombie Apocalypse</h3>
+                  <a href="http://dwestaway.bitbucket.org/blog.html">Link to blog</a>
+                </div>
+
+              </div>
+            </div>
+          </div>
 
           </div>
 
-        <div class="footerLine"></div>
+          <div class="footerLine"></div>
           <footer>
             <div class="footerContent">
               <p>
@@ -94,7 +104,6 @@
           </footer>
 
         </main>
-
 
 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
