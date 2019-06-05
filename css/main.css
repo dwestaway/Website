@@ -116,7 +116,7 @@ main {
   margin-bottom: 15px;
 }
 header {
-  background: #CAEBF2;
+  background: #90CAF9;
   background-repeat: repeat-x;
   margin-bottom: 30px;
   width: 100%;
@@ -137,7 +137,7 @@ header {
 }
 .navBar {
   height: 42px;
-  background: #CAEBF2;
+  background: #90CAF9;
   margin-bottom: 10px;
 }
 .navBar ul {
@@ -210,7 +210,7 @@ footer {
 
 .aboutArticle {
   float:left;
-  background-color: #CAEBF2;
+  background-color: #90CAF9;
   opacity: 0.85;
   width: 100%;
   height: auto;
@@ -246,7 +246,7 @@ p {
 
 .aboutGames {
   float:left;
-  background-color: #FF3B3F;
+  background-color: #90CAF9;
   border-radius: 15px 15px 0 0;
   opacity: 0.9;
   width: auto;
@@ -354,7 +354,7 @@ h3 {
 
 .blogPosts {
   float:left;
-  background-color: #CAEBF2;
+  background-color: #90CAF9;
   width: 1024px;
   height: auto;
   margin-bottom: 20px;
