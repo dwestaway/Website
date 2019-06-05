@@ -297,12 +297,11 @@ h4 {
   margin-top: 0;
   margin-bottom: 0;
 }
-#cat {
-  clear:both;
-  width: 100%;
-  height: auto;
-  border: 2px solid #7ee982;
-  border-radius: 20px;
+.profileImage {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
 }
 
 
