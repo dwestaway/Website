@@ -71,23 +71,19 @@ main {
 
 /* Nav + top image, all pages*/
 
-.topImage {
-  padding-top: 10px;
-  display: block;
-  margin: 0 auto;
-  margin-bottom: 15px;
-}
+
 header {
   background: #a7c1dc;
   background-repeat: repeat-x;
-  margin-bottom: 30px;
+  margin-bottom: 40px;
+  padding: 0px;
   width: 100%;
   height: auto;
 }
 #headerText {
   font-size: 90px;
   color: #EFEFEF;
-  padding-top: 10px;
+  padding-top: 20px;
   display: block;
   margin: 0 auto;
   text-align: center;
@@ -97,19 +93,24 @@ header {
   width: 1024px;
   height: auto;
   margin: 0 auto;
+  padding: 0px;
 }
 .navBar {
   height: 42px;
-  background: #a7c1dc;
+  width: 1024px;
+  padding: 0px;
   margin-bottom: 10px;
 }
-.ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
+ul {
+  padding: 0px;
+}
+.narBar ul {
+  padding: 0px;
+  margin: 0px;
 }
 .navBar ul li {
   list-style: none;
+  padding-left: 0px;
   font-family: "Century Gothic";
 }
 .navBar ul li a {
@@ -125,6 +126,11 @@ header {
   color: white;
   background-color: #A9A9A9;
 }
+
+
+
+/* About Page */
+
 .aboutMain {
   width: 1024px;
   min-height: 600px;
@@ -132,46 +138,6 @@ header {
   margin: 0 auto;
 
 }
-
-
-
-/* Home Page */
-
-.title {
-  position: absolute;
-  top: 40%;
-  left: 36%;
-
-}
-.title h1 {
-  font-size: 100px;
-  font-family: "Century Gothic";
-}
-
-.button {
-  position: absolute;
-  top: 60%;
-  left: 36%;
-  margin: 0 auto;
-}
-.btn {
-  border: 1px solid grey;
-  padding: 10px 10px;
-  color: grey;
-  text-decoration: none;
-  font-family: "Century Gothic";
-  transition: 0.6s ease;
-}
-.btn:hover{
-  background-color: #a7c1dc;
-  color: grey;
-  text-decoration: none;
-
-}
-
-
-/* About Page */
-
 .aboutArticle {
   float:right;
   background-color: #EFEFEF;
@@ -190,7 +156,6 @@ header {
 }
 .articleHead {
   padding-left: 10px;
-  padding-top: 10px;
 }
 
 a:link, a:visited{
@@ -198,7 +163,7 @@ a:link, a:visited{
     color: black;
     text-align: left;
     display: block;
-    padding-left: 15px;
+    padding-left: 10px;
     margin-bottom: 10px;
 }
 a:hover {
