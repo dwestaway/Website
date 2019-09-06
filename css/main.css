@@ -75,7 +75,7 @@ main {
 header {
   background: #a7c1dc;
   background-repeat: repeat-x;
-  margin-bottom: 40px;
+  margin-bottom: 50px;
   padding: 0px;
   width: 100%;
   height: auto;
@@ -156,6 +156,7 @@ ul {
 }
 .articleHead {
   padding-left: 10px;
+  margin-top: 0px;
 }
 
 a:link, a:visited{
@@ -247,18 +248,22 @@ h1 {
   font-family: Century Gothic;
   color: grey;
 }
+h2 {
+  font-family: Century Gothic;
+  color: grey;
+}
 
 .portfolioMain {
   width: 1024px;
   height: auto;
   margin: 0 auto;
-  background-color: #dfe4ee;
 }
 
 .portfolioItem {
   float:left;
   width: 1024px;
   height: auto;
+  padding-top: 10px;
   margin-bottom: 20px;
   background-color: #dfe4ee;
 }
