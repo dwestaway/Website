@@ -90,7 +90,8 @@ header {
   padding-top: 10px;
   display: block;
   margin: 0 auto;
-  font-family: monospace;
+  text-align: center;
+  font-family: "Century Gothic";
 }
 .headerContent {
   width: 1024px;
@@ -102,13 +103,14 @@ header {
   background: #a7c1dc;
   margin-bottom: 10px;
 }
-.navBar ul {
+.ul {
   list-style: none;
   margin: 0;
   padding: 0;
 }
 .navBar ul li {
   list-style: none;
+  font-family: "Century Gothic";
 }
 .navBar ul li a {
   color: grey;
@@ -117,49 +119,58 @@ header {
   float: left;
   display: block;
   padding: 10px 20px;
+  transition: 0.6s ease;
 }
 .navBar ul li a:hover {
   color: white;
   background-color: #A9A9A9;
 }
-.mainContent {
+.aboutMain {
   width: 1024px;
+  min-height: 600px;
   height: auto;
   margin: 0 auto;
 
 }
 
 
-/* Footer */
-
-footer {
-  width: 100%;
-  height: 60px;
-  /*background: #CAEBF2;*/
-  position: relative;
-}
-
-.footerContent {
-  width: 1024px;
-  height: auto;
-  margin-left: auto;
-  margin-right: auto;
-  padding-top: 12px;
-  padding-left: 15px;
-}
-.footerContent p {
-  margin-top: 6px;
-  margin-bottom: 0;
-  color: black;
-  width: 300px;
-  float: left;
-}
-.logo {
-  float: right;
-}
-
 
 /* Home Page */
+
+.title {
+  position: absolute;
+  top: 40%;
+  left: 36%;
+
+}
+.title h1 {
+  font-size: 100px;
+  font-family: "Century Gothic";
+}
+
+.button {
+  position: absolute;
+  top: 60%;
+  left: 36%;
+  margin: 0 auto;
+}
+.btn {
+  border: 1px solid grey;
+  padding: 10px 10px;
+  color: grey;
+  text-decoration: none;
+  font-family: "Century Gothic";
+  transition: 0.6s ease;
+}
+.btn:hover{
+  background-color: #a7c1dc;
+  color: grey;
+  text-decoration: none;
+
+}
+
+
+/* About Page */
 
 .aboutArticle {
   float:right;
@@ -268,9 +279,31 @@ h4 {
 
 h1 {
   margin-bottom: 20px;
-  padding-left: 10px;
-  font-family: "Verdana";
+  font-family: Century Gothic;
   color: grey;
+}
+
+.portfolioMain {
+  width: 1024px;
+  height: auto;
+  margin: 0 auto;
+  background-color: #dfe4ee;
+}
+
+.portfolioItem {
+  float:left;
+  width: 1024px;
+  height: auto;
+  margin-bottom: 20px;
+  background-color: #dfe4ee;
+}
+.blogImage {
+  margin-left: 37px;
+  margin-bottom: 20px;
+  max-width: 92%;
+}
+#portfolioTitle {
+  text-align: center;
 }
 
 .gameText {
@@ -302,41 +335,6 @@ h3 {
   float: left;
   background-color: white;
   border: 1px solid black;
-}
-
-
-
-/* Blog Page */
-
-.blogPosts {
-  float:left;
-  background-color: #dfe4ee;
-  width: 1024px;
-  height: auto;
-  margin-bottom: 20px;
-  border-radius: 10px;
-}
-.blogImage {
-  margin-left: 37px;
-  margin-bottom: 20px;
-  max-width: 92%;
-}
-#blogLeft {
-  width: 700px;
-  float: left;
-}
-#accessibilityBlog {
-  float:left;
-  width: 700px;
-}
-#waveReport {
-  float: left;
-  margin-right: 15px;
-  margin-bottom: 15px;
-}
-
-#portfolioTitle {
-  text-align: center;
 }
 
 
