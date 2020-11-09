@@ -1,4 +1,11 @@
 
+
+@font-face {
+  font-family: "sfpro";
+  src: url('fonts/sfprodisplay_bold.ttf') format('truetype');
+
+}
+
 html {
     color: #222;
     font-size: 1em;
@@ -88,7 +95,7 @@ header {
   display: block;
   margin: 0 auto;
   text-align: center;
-  font-family: "Century Gothic";
+  font-family: 'Open Sans', sans-serif;
 }
 .headerContent {
   width: 1024px;
@@ -112,7 +119,7 @@ ul {
 .navBar ul li {
   list-style: none;
   padding-left: 0px;
-  font-family: "Century Gothic";
+  font-family: 'Open Sans', sans-serif;
 }
 .navBar ul li a {
   color: grey;
@@ -159,6 +166,9 @@ ul {
   padding-left: 10px;
   margin-top: 0px;
 }
+a {
+  font-size: 18px;
+}
 
 a:link, a:visited{
     text-decoration: none;
@@ -178,7 +188,7 @@ a:active {
 p {
   padding: 0px 10px 10px 10px;
   font-size: 18px;
-  font-family: "Calibri";
+  font-family: 'Open Sans', sans-serif;
 }
 p1 {
   padding-left: 10px;
@@ -246,6 +256,7 @@ h4 {
 
 h1 {
   margin-bottom: 20px;
+  font-size: 50px;
   font-family: Century Gothic;
   color: grey;
 }
@@ -266,7 +277,6 @@ h2 {
   height: auto;
   padding: 20px 15px 15px 15px;
   margin-bottom: 20px;
-  background-color: #dfe4ee;
 }
 .blogImage {
   margin-left: 37px;
